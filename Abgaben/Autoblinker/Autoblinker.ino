@@ -4,7 +4,7 @@ Atm_led blau1, blau2, rot, gruen;
 Atm_button taste;
 
 int on = 600;
-int off = 1500;
+int off = 900;
 
 void setup() {
   blau1.begin( D0, true ).blink(on, off);
